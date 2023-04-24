@@ -1,0 +1,80 @@
+.primary {
+  background-color: var(--primary-main1);
+  color: var(--primary-main2);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0px 24px;
+  line-height: 24px;
+  gap: 8px;
+  width: 91px;
+  height: 48px;
+  left: 20px;
+  top: 321px;
+}
+
+.primary:hover {
+  background-color: var(--primary-main3);
+}
+
+.primary:active {
+  background-color: var(--primary-main3);
+}
+
+.primary:focus {
+  background-color: var(--primary-main1);
+  border: 3px solid var(--primary-main3);
+}
+
+.primary:active:after {
+  background-color: var(--secondary-black);
+}
+
+.secondary {
+  color: var(--secondary-black);
+  border: 1px solid var(--secondary-black);
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 0px 24px;
+  line-height: 24px;
+  gap: 8px;
+  width: 91px;
+  height: 48px;
+  left: 20px;
+  top: 321px;
+}
+
+.secondary:hover {
+  color: var(--primary-main4);
+  border: 1px solid var(--secondary-black);
+}
+
+.secondary:active {
+  background-color: var(--primary-main3);
+}
+
+.secondary:focus {
+  background-color: var(--primary-main1);
+  border: 3px solid var(--primary-main3);
+}
+
+.secondary:active:after {
+  background-color: var(--secondary-black);
+}
+
+.plus-icon {
+  font-size: 24px;
+  color: var(--primary-main2);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+}
